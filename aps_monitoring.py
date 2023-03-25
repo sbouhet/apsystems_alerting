@@ -9,6 +9,7 @@ class ApsMonitoringManager:
     def action_check(self,notification):
 
         print("Start playwright test ...")
+
         dir_path = os.path.dirname(os.path.realpath(__file__))
         process = subprocess.run([dir_path+"/run-docker.sh", os.environ['APSYSTEMS_USER'], os.environ['APSYSTEMS_PWD']], capture_output=True)
         output = process.stdout.decode("utf-8")
