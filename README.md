@@ -14,6 +14,8 @@ Clone the project.
 
 Edit `export-vars.sh.template` and rename it by `export-vars.sh` and set your APSystems login and password and also put your PushSafer API Key.
 
+Get docker image sbouhet/apsystems-alerting from Docker Hub: `docker pull sbouhet/apsystems-alerting:latest`
+
 ## Run
 Run the command `./check-aps.sh`
 
