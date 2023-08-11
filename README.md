@@ -1,4 +1,6 @@
 # APSystems alerting
+## Deprecated
+Use now the project https://github.com/sbouhet/aps_monitoring
 ## Purpose
 Since the HTTP API is not working anymore for APSystems (http://api.apsystemsema.com:8073/apsema/v1/ecu/getPowerInfo), it's not easy to be alerted if your installation is not working anymore.
 
